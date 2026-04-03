@@ -6,7 +6,7 @@ from bot.config import BOT_TOKEN
 from bot.handlers.add_expense import router as add_router
 from bot.handlers.stats import router as stats_router
 
-bot = Bot(token="8764658585:AAF4oMTnhwkNtMJLbZB_FwU7kJgImlSZ4yM")
+bot = Bot(token="...")
 dp = Dispatcher()
 dp.include_router(stats_router)
 
